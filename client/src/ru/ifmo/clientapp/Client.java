@@ -2,7 +2,8 @@ package ru.ifmo.clientapp; // тест2
 
 
 
-import ru.ifmo.lib.Commands; // 1. это то что необходимо импортировать клиенту (и ниже то же два пакета).
+import ru.ifmo.lib.Commands;
+// 1. это то что необходимо импортировать клиенту (и ниже то же два пакета).
 import ru.ifmo.lib.Connection;
 import ru.ifmo.lib.SimpleMessage;
 

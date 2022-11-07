@@ -29,7 +29,7 @@ public class Server {
                 connection = new Connection(newClient);
                 SimpleMessage message = connection.readMessage();
                 clients.add(message.getSender());
-                handleMessage(message);
+                 handleMessage(message);
             }
         } catch (IOException e) {
             System.out.println("Ошибка сервера");
